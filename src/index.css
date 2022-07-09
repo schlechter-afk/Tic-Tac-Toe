@@ -1,0 +1,80 @@
+body {
+    font-size: 50px ;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 800px;
+    text-align: center;
+  }
+  
+  ol, ul {
+    padding-left: 50px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+    text-align: center;
+  }
+  
+  .status {
+    margin-bottom: 80px;
+    margin-left: -730px;
+    text-align: center;
+  }
+  .statusext {
+    margin-bottom: 80px;
+    text-decoration: underline;
+    /* text-decoration: wavy; */
+    /* text-decoration: blanchedalmond; */
+    margin-left: -650px;
+    text-align: center;
+    font-size: 50px;
+    /* font-style: italic; */
+    color: magenta;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid black;
+    float: left;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 100px;
+    /* margin-left: 300px; */
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: yellow;
+  }
+  
+  /* .game {
+    display: flex;
+    /* flex-direction: row; */
+  
+  
+  /* .game-info {
+    margin-left: 330px;
+  } */
+
+  .layou {
+    font-size: 30px ;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    text-align: center;
+  }
+  
